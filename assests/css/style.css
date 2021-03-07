@@ -1,0 +1,77 @@
+/* GERAL */
+html,
+body,
+figure,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+figure.icon-rede-social-mobile {
+    display: none;
+}
+
+/* HEADER */
+
+header {
+    width: 414px;
+    height: 890px;
+}
+
+header nav {
+    width: 382px;
+    height: 78px;
+    padding: 17px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div.left {
+    align-self: flex-start;
+    margin-left: 9px;
+}
+
+header div.left figure img.logo-header {
+    width: 104px;
+    height: 51.37px;
+}
+
+header div.right {
+    margin-left: 242px;
+}
+
+header div.right label img.menu-icon {
+    width: 20px;
+    height: 16px;
+}
+
+header div.right input[type=checkbox] {
+    display: none;
+}
+
+header div.right ul.menu-nav {
+    display: none;
+}
+
+#menu:checked~ul.menu-nav {
+    display: block;
+}
