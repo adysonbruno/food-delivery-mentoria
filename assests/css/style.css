@@ -96,7 +96,7 @@ header nav div.right ul.menu-nav {
 
 header div.highlight {
     width: 100vw;
-    height: 778px;
+    padding-bottom: 20px;
     background-color: #FAFAFA;
 }
 
@@ -145,7 +145,7 @@ header div.highlight div.highlight-buttons button {
     height: 68px;
     margin: 17px auto;
     border-radius: 30px;
-    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.07);
+    background-color: transparent;
     border: 1px solid #FA4A0C;
     box-sizing: border-box;
 }
@@ -175,18 +175,47 @@ header div.highlight div.highlight-buttons button.second-button p {
 
 /* MAIN */
 /* CONTAINER 2 */
-
-main div.container-2 div.two-images {}
-
-main div.container-2 div.two-images img.first-img {
-    width: 230px;
-    height: 451px;
+main {
+    background-color: #FAFAFA;
 }
 
-main div.container-2 div.two-images img.first-img {
-    width: 219px;
-    height: 408px;
+main div.container2 div.two-images {
+    display: flex;
+    height: 360px;
 }
+
+main div.container2 div.two-images figure.first-img {
+    margin-right: -10px;
+    z-index: 1;
+}
+
+main div.container2 div.two-images figure.first-img img {
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+}
+
+main div.container2 div.two-images figure.second-img {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+main div.container2 div.two-images figure img {
+    width: 165px;
+}
+
+main div.container2 hr {
+    width: 100vw;
+    border: 1px solid #E4E4E4;
+}
+
+main div.container2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
 
 
 
@@ -228,6 +257,13 @@ main div.flex div.section-txt h4 {
     color: #737373;
     padding: 0 50px;
     margin-bottom: 40px;
+}
+
+main div.flex div.section-img {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
 }
 
 /* ÚLIMO CONTAINER */
