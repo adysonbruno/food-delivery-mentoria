@@ -35,10 +35,6 @@ div.full-container {
     display: none;
 }
 
-figure.icon-rede-social-mobile {
-    display: none;
-}
-
 /* GERAL */
 
 /* HEADER */
@@ -234,9 +230,12 @@ main div.flex div.section-txt h4 {
     margin-bottom: 40px;
 }
 
+/* ÚLIMO CONTAINER */
+
 main div.flex.container6 {
     width: 100vw;
     background-color: #252B42;
+    margin-top: 50px;
 }
 
 main div.flex.container6 div.section-txt h2 {
@@ -287,3 +286,40 @@ main div.flex.container6 div.section-buttons button.second-button {
     color: #FFFFFF;
     background: none;
 }
+
+/* ÚLTIMO CONTAINER */
+/* MAIN */
+
+/* FOOTER */
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+footer div.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 186px;
+}
+
+footer div.redes-sociais img {
+    width: 32px;
+    height: 32px;
+}
+
+footer div.copy-right p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+    margin-top: 10px;
+}
+
+
+/* FOOTER */
