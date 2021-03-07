@@ -31,6 +31,10 @@ div.full-container {
     display: none;
 }
 
+.hidden-mobile {
+    display: none;
+}
+
 figure.icon-rede-social-mobile {
     display: none;
 }
@@ -206,6 +210,7 @@ main div.flex div.section-txt h3 {
     line-height: 36px;
     letter-spacing: 0.1px;
     color: #FA4A0C;
+    margin-top: 60px;
 }
 
 main div.flex div.section-txt h2 {
@@ -215,6 +220,7 @@ main div.flex div.section-txt h2 {
     letter-spacing: 0.2px;
     color: #252B42;
     margin: 40px 0 50px;
+    padding: 0 15px;
 }
 
 main div.flex div.section-txt h4 {
@@ -224,4 +230,23 @@ main div.flex div.section-txt h4 {
     line-height: 38px;
     letter-spacing: 0.2px;
     color: #737373;
+    padding: 0 50px;
+    margin-bottom: 40px;
+}
+
+main div.flex.container6 {
+    width: 100vw;
+    height: 564px;
+    background-color: #252B42;
+}
+
+main div.flex.container6 div.section-txt h2 {
+    color: #FFFFFF;
+    margin: 110px 0 20px;
+}
+
+main div.flex.container6 div.section-txt h4 {
+    padding: 0 30px;
+    margin-bottom: 60px;
+
 }
