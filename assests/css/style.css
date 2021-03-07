@@ -169,3 +169,59 @@ header div.highlight div.highlight-buttons button.first-button p {
 header div.highlight div.highlight-buttons button.second-button p {
     color: #FA4A0C;
 }
+
+/* HIGHLIGHT */
+/* HEADER */
+
+/* MAIN */
+/* CONTAINER 2 */
+
+main div.container-2 div.two-images {}
+
+main div.container-2 div.two-images img.first-img {
+    width: 230px;
+    height: 451px;
+}
+
+main div.container-2 div.two-images img.first-img {
+    width: 219px;
+    height: 408px;
+}
+
+
+
+main div.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div.flex div.section-txt {
+    text-align: center;
+}
+
+main div.flex div.section-txt h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+main div.flex div.section-txt h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 40px 0 50px;
+}
+
+main div.flex div.section-txt h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
