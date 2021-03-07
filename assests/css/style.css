@@ -21,12 +21,6 @@ a {
     text-decoration: none;
 }
 
-div.full-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .hidden {
     display: none;
 }
@@ -96,40 +90,36 @@ header nav div.right ul.menu-nav {
 
 header div.highlight {
     width: 100vw;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     background-color: #FAFAFA;
 }
 
 header div.highlight div.text-content {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     padding-top: 40px;
     margin-bottom: 33px;
 }
 
 header div.highlight div.text-content h5 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.1px;
-    text-align: center;
     color: #737373;
 }
 
 header div.highlight div.text-content h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     letter-spacing: 0.2px;
-    text-align: center;
     padding: 10px;
     margin: 7px 0;
     color: #252B42;
 }
 
 header div.highlight div.text-content h4 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
-    text-align: center;
     letter-spacing: 0.2px;
     color: #737373;
 }
@@ -144,7 +134,7 @@ header div.highlight div.highlight-buttons {
 header div.highlight div.highlight-buttons button {
     width: 236px;
     height: 68px;
-    margin: 17px auto;
+    margin: 8px auto;
     border-radius: 30px;
     background-color: transparent;
     border: 1px solid #FA4A0C;
@@ -162,7 +152,6 @@ header div.highlight div.highlight-buttons button p {
     letter-spacing: 0.1px;
 }
 
-
 header div.highlight div.highlight-buttons button.first-button p {
     color: #FFFFFF;
 }
@@ -178,12 +167,13 @@ header div.highlight div.highlight-buttons button.second-button p {
 /* CONTAINER 2 */
 main {
     background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main div.container2 div.two-images {
     display: flex;
     height: 360px;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 }
 
 main div.container2 div.two-images figure.first-img {
@@ -212,14 +202,11 @@ main div.container2 hr {
 }
 
 main div.container2 p {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.1px;
 }
-
-
 
 
 main div.flex {
@@ -233,16 +220,14 @@ main div.flex div.section-txt {
 }
 
 main div.flex div.section-txt h3 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.1px;
     color: #FA4A0C;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 main div.flex div.section-txt h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     line-height: 57px;
     letter-spacing: 0.2px;
@@ -252,14 +237,13 @@ main div.flex div.section-txt h2 {
 }
 
 main div.flex div.section-txt h4 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.2px;
     color: #737373;
     padding: 0 50px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 main div.flex div.section-img {
@@ -362,3 +346,52 @@ footer div.copy-right p {
 
 
 /* FOOTER */
+
+/* MEDIA QUERIES */
+/* 
+@media screen and (min-width: 768px) {
+
+
+    header nav {
+        height: 146px;
+    }
+
+
+    header nav div.left {
+        align-self: center;
+    }
+
+    header nav div.left figure img.logo-header {
+        width: 206px;
+        height: 101.76px
+    }
+
+
+    header nav div.right label {
+        display: none;
+    }
+
+    header nav div.right ul.menu-nav {
+        display: flex;
+    }
+
+    header nav div.right ul.menu-nav li {}
+
+    header nav div.right ul.menu-nav li a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        text-decoration: none;
+        color: #252B42;
+    }
+
+    header nav div.right ul.menu-nav li a:hover {
+        color: #FA4A0C;
+    }
+
+
+} */
+
+/* MEDIA QUERIES */
