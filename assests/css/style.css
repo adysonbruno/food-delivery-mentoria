@@ -21,6 +21,12 @@ a {
     text-decoration: none;
 }
 
+div.full-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hidden {
     display: none;
 }
@@ -29,49 +35,123 @@ figure.icon-rede-social-mobile {
     display: none;
 }
 
+/* GERAL */
+
 /* HEADER */
 
+/* NAV */
 header {
-    width: 414px;
-    height: 890px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 header nav {
-    width: 382px;
+    width: 92%;
     height: 78px;
     padding: 17px 16px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-header div.left {
+header nav div.left {
+    width: 50%;
     align-self: flex-start;
     margin-left: 9px;
 }
 
-header div.left figure img.logo-header {
+header nav div.left figure img.logo-header {
     width: 104px;
     height: 51.37px;
 }
 
-header div.right {
-    margin-left: 242px;
+header nav div.right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
-header div.right label img.menu-icon {
+header nav div.right label img.menu-icon {
     width: 20px;
     height: 16px;
 }
 
-header div.right input[type=checkbox] {
+header nav div.right input[type=checkbox] {
     display: none;
 }
 
-header div.right ul.menu-nav {
+header nav div.right ul.menu-nav {
     display: none;
 }
 
 #menu:checked~ul.menu-nav {
     display: block;
+}
+
+/* NAV */
+
+/* HIGHLIGHT */
+
+header div.highlight {
+    width: 100vw;
+    height: 778px;
+    background-color: #FAFAFA;
+}
+
+header div.highlight div.text-content h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #737373;
+}
+
+header div.highlight div.text-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 10px;
+    color: #252B42;
+}
+
+header div.highlight div.text-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+header div.highlight div.highlight-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header div.highlight div.highlight-buttons button {
+    width: 236px;
+    height: 68px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.07);
+    border: 1px solid #FA4A0C;
+    box-sizing: border-box;
+}
+
+header div.highlight div.highlight-buttons button.first-button {
+    background-color: #FA4A0C;
+}
+
+header div.highlight div.highlight-buttons button.first-button p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
 }
