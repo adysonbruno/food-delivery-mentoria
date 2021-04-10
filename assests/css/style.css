@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
 /* GERAL */
 html,
 body,
@@ -34,59 +36,10 @@ a {
 /* HEADER */
 
 /* NAV */
-
-div.large-container figure img.logo-header {
-    width: 104px;
-    height: 51.37px;
-}
-
-div.large-container label {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 48px 23px 23px;
-}
-
-div.large-container #menu {
-    display: none;
-}
-
-div.large-container nav {
-    display: none;
-}
-
-div.large-container #menu:checked~nav {
-    display: block;
-}
-
-div.large-container nav ul {
-    text-align: center;
-    line-height: 1.5;
-}
-
 div.large-container label img.menu-icon {
     width: 20px;
     height: 16px;
 }
-
-
-/* header {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} */
-
-/* 
-header div.large-container {
-    width: 92%;
-    height: 78px;
-    padding: 17px 16px;
-    display: flex;
-    align-items: center;
- */
 
 header div.large-container figure {
     width: 50%;
@@ -96,14 +49,20 @@ header div.large-container figure {
 
 header div.large-container figure img.logo-header {
     width: 104px;
-    height: 51.37px;
+    height: 51px;
     margin: 17px 0 25px 0;
 }
 
 header div.large-container label {
-    width: 50%;
+    width: 20px;
+    height: 16px;
     display: flex;
     justify-content: flex-end;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 48px 23px 23px;
 }
 
 header div.large-container label img.menu-icon {
@@ -122,6 +81,12 @@ header div.large-container #menu {
 header div.large-container #menu:checked~nav {
     display: block;
 }
+
+div.large-container nav ul {
+    text-align: center;
+    line-height: 1.5;
+}
+
 
 header div.large-container nav ul li a {
     font-family: 'Montserrat', sans-serif;
@@ -152,14 +117,16 @@ header div.highlight div.text-content {
 
 header div.highlight div.text-content h5 {
     font-size: 16px;
+    font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.1px;
+    /*letter-spacing: 0.1px;*/
     color: #737373;
 }
 
 header div.highlight div.text-content h1 {
     font-size: 36px;
-    letter-spacing: 0.2px;
+    font-weight: 700;
+    /*letter-spacing: 0.2px;*/
     padding: 10px;
     margin: 7px 0;
     color: #252B42;
@@ -169,12 +136,15 @@ header div.highlight div.text-content h4 {
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
-    letter-spacing: 0.2px;
+    margin: 0 10px;
+    padding: 0 10px;
+    /*letter-spacing: 0.2px;*/
     color: #737373;
 }
 
 header div.highlight div.highlight-buttons {
     display: flex;
+    margin-bottom: 20px;
     flex-direction: column;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
 }
@@ -198,7 +168,7 @@ header div.highlight div.highlight-buttons button p {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 24px;
-    letter-spacing: 0.1px;
+    /*letter-spacing: 0.1px;*/
 }
 
 header div.highlight div.highlight-buttons button.first-button p {
@@ -247,14 +217,14 @@ main div.container2 div.two-images figure img {
 main div.container2 hr {
     width: 100vw;
     border: 1px solid #E4E4E4;
-    margin: 30px 0 40px;
+    margin: 45px 0;
 }
 
 main div.container2 p {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    letter-spacing: 0.1px;
+    /*letter-spacing: 0.1px;*/
 }
 
 
@@ -271,7 +241,7 @@ main div.flex div.section-txt {
 main div.flex div.section-txt h3 {
     font-size: 24px;
     line-height: 36px;
-    letter-spacing: 0.1px;
+    /*letter-spacing: 0.1px;*/
     color: #FA4A0C;
     margin-top: 50px;
 }
@@ -279,20 +249,20 @@ main div.flex div.section-txt h3 {
 main div.flex div.section-txt h2 {
     font-size: 40px;
     line-height: 57px;
-    letter-spacing: 0.2px;
+    /*letter-spacing: 0.2px;*/
     color: #252B42;
     margin: 40px 0 50px;
-    padding: 0 15px;
+    padding: 0 40px;
 }
 
 main div.flex div.section-txt h4 {
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
-    letter-spacing: 0.2px;
+    /*letter-spacing: 0.2px;*/
     color: #737373;
-    padding: 0 50px;
-    margin-bottom: 35px;
+    padding: 0 90px;
+    margin: 35px 0;
 }
 
 main div.flex div.section-img {
@@ -300,9 +270,10 @@ main div.flex div.section-img {
     display: flex;
     justify-content: center;
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+    margin: 20px 0;
 }
 
-/* ÚLIMO CONTAINER */
+/* ÚLTIMO CONTAINER */
 
 main div.flex.container6 {
     width: 100vw;
@@ -335,7 +306,7 @@ main div.flex.container6 div.section-buttons button {
     font-weight: bold;
     font-size: 16px;
     line-height: 28px;
-    letter-spacing: 0.2px;
+    /*letter-spacing: 0.2px;*/
     border-radius: 10px;
     margin: 10px;
 }
@@ -383,12 +354,12 @@ footer div.redes-sociais img {
 }
 
 footer div.copy-right p {
-    font-family: Roboto;
+    font-family: "Roboto",sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0.1px;
+    /*letter-spacing: 0.1px;*/
     color: #5C5C5C;
     margin-top: 10px;
 }
@@ -397,8 +368,8 @@ footer div.copy-right p {
 /* FOOTER */
 
 /* MEDIA QUERIES */
-/* 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 576px) {
 
 
     header nav {
@@ -441,6 +412,6 @@ footer div.copy-right p {
     }
 
 
-} */
+}
 
 /* MEDIA QUERIES */
