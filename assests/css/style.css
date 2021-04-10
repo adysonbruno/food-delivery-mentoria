@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 
 /* GERAL */
 html,
@@ -43,7 +45,7 @@ div.large-container label img.menu-icon {
 
 header div.large-container figure {
     width: 50%;
-    align-self: flex-start;
+    /*align-self: flex-start;*/
     margin-left: 9px;
 }
 
@@ -56,8 +58,8 @@ header div.large-container figure img.logo-header {
 header div.large-container label {
     width: 20px;
     height: 16px;
-    display: flex;
-    justify-content: flex-end;
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
     cursor: pointer;
     position: absolute;
     top: 0;
@@ -158,6 +160,7 @@ header div.highlight div.highlight-buttons button {
     background-color: transparent;
     border: 1px solid #FA4A0C;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 header div.highlight div.highlight-buttons button.first-button {
@@ -228,7 +231,7 @@ main div.container2 p {
 }
 
 
-main div.flex {
+main div.flex, main div.container2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,9 +269,9 @@ main div.flex div.section-txt h4 {
 }
 
 main div.flex div.section-img {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+    /*width: 100vw;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
     filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
     margin: 20px 0;
 }
@@ -309,6 +312,7 @@ main div.flex.container6 div.section-buttons button {
     /*letter-spacing: 0.2px;*/
     border-radius: 10px;
     margin: 10px;
+    cursor: pointer;
 }
 
 main div.flex.container6 div.section-buttons button.first-button {
@@ -351,6 +355,7 @@ footer div.redes-sociais {
 footer div.redes-sociais img {
     width: 32px;
     height: 32px;
+    cursor: pointer;
 }
 
 footer div.copy-right p {
@@ -369,49 +374,189 @@ footer div.copy-right p {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
 
-
-    header nav {
-        height: 146px;
+    .hidden-mobile {
+        display: block;
     }
 
-
-    header nav div.left {
-        align-self: center;
-    }
-
-    header nav div.left figure img.logo-header {
-        width: 206px;
-        height: 101.76px
-    }
-
-
-    header nav div.right label {
+    .hidden-desktop{
         display: none;
     }
 
-    header nav div.right ul.menu-nav {
+    header div.large-container{
+        display: flex;
+        margin: 0 50px 0 90px;
+    }
+
+    header div.large-container figure {
+        width: 50%;
+    }
+
+    header div.large-container nav{
+        width: 50%;
         display: flex;
     }
 
-    header nav div.right ul.menu-nav li {}
-
-    header nav div.right ul.menu-nav li a {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 28px;
-        letter-spacing: 0.2px;
-        text-decoration: none;
-        color: #252B42;
+    header div.large-container nav ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    header nav div.right ul.menu-nav li a:hover {
-        color: #FA4A0C;
+    header div.large-container label{
+        display: none;
+    }
+
+    header div.highlight {
+        height: 619px;
+        background-image: url("../img/background-food.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    header div.highlight div.text-content h5 {
+        color: #F6F6F6;
+    }
+
+    header div.highlight div.text-content h1 {
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 58px;
+        margin: 0 auto;
+    }
+
+    header div.highlight div.text-content h4 {
+        color: #F6F6F6;
+    }
+
+    header div.highlight div.highlight-buttons{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header div.highlight div.highlight-buttons button{
+        margin: 10px 25px
+    }
+
+    main div.flex.container3 div.section-txt{
+        text-align: justify;
+    }
+
+    main div.flex.container3 div.section-txt h3{
+        padding-left: 90px;
+    }
+
+    main div.flex.container3 div.section-txt h2{
+        padding-left: 90px;
+    }
+
+    main div.flex.container4 div.section-txt{
+        text-align: justify;
+    }
+
+    main div.flex.container4 div.section-txt h3{
+        padding-left: 90px;
+    }
+
+    main div.flex.container4 div.section-txt h2{
+        padding-left: 90px;
+    }
+
+    main div.flex.container5 div.section-txt{
+        text-align: justify;
+    }
+
+    main div.flex.container5 div.section-txt h3{
+        padding-left: 90px;
+    }
+
+    main div.flex.container5 div.section-txt h2{
+        padding-left: 90px;
+    }
+
+    main div.container2 div.two-images{
+        width: 548px;
+        height: 640px;
+        margin: 0;
+    }
+
+    main div.container2 div.two-images figure img{
+        width: 299px;
+    }
+
+    main div.container2 div.two-images figure.first-img{
+        margin: -90px -20px 0;
+    }
+
+    main div.container2 div.two-images figure.second-img{
+        display: block;
+        margin: 0;
+    }
+
+    main div.container2 hr {
+        width: 70%;
+        margin-bottom: 45px;
+    }
+    main div.flex{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main div.flex.container3{
+        margin: 0 15px;
+    }
+
+    main div.flex.container4{
+        margin: 0 15px;
     }
 
 
+    main div.flex.container5{
+        margin: 0 15px;
+    }
+
+    main div.container3 div.section-img{
+        order:0;
+    }
+
+    main div.container3 div.section-txt{
+        order:1;
+    }
+
+    main div.container5 div.section-img{
+        order:0;
+    }
+
+    main div.container5 div.section-txt{
+        order:1;
+    }
+
+    main div.flex.container6{
+        height: 516px;
+        background-image: url("../img/background-store.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main div.flex.container6 div.section-txt h2{
+        margin: 0;
+    }
+    main div.flex.container6 div.section-txt h4{
+        color: #FFFFFF;
+    }
+
+    main div.flex.container6 div.section-buttons{
+        margin: 0;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 /* MEDIA QUERIES */
