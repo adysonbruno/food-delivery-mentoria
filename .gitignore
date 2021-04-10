@@ -1,0 +1,5 @@
+/* ignore path .vscode */
+.vscode
+
+/*ignore path .idea*/
+.idea
